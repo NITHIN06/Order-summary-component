@@ -13,25 +13,30 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
+  <div class="order_card">
+    <img class="top-img" src="./images/illustration-hero.svg" alt="">
+    <h1>Order Summary</h1>
+    <p class="desc grey-text">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+    <div class="bar">
+      <div class="bar-one">
+        <img src="./images/icon-music.svg" alt="">
+        <div class="mid-bar">
+          <p>Annual Plan</p>
+          <p class="grey-text">$59.99/year</p>
+        </div>
+      </div>
+      <a href="#">Change</a>
+    </div>
+    <button class="btn">Proceed to Payment</button>
+    <div class="can-btn"><a href="#">Cancel Order</a></div>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">A. Nithin</a>.
   </div>
 </body>
 </html>

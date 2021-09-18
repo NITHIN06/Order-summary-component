@@ -1,0 +1,70 @@
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #e6e5fa;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.grey-text{
+    color: grey;
+}
+.order_card
+{
+    margin: 10% auto 10px auto;
+    background-color: rgb(255, 255, 255);
+    width:min-content;
+    height: 80%;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.top-img{
+    border-radius: 10px 10px 0 0;
+}
+.desc{
+    width: 80%;
+    margin: 10px auto;
+}
+.bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 50px auto;
+    line-height: 0.5;
+    background-color: #e6e5fa80;
+    width: 80%;
+    border-radius: 10px;
+}
+.bar-one{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.bar a:hover{
+    color: rgba(0, 0, 255, 0.555);
+}
+.btn{
+    padding: 5px 50px;
+    background-color: #382ae1;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 30px;
+    cursor: pointer;
+    padding: 10px 20%;
+    font-size: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.btn:hover{
+    background-color: #392ae1af;
+}
+.can-btn a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+.can-btn a:hover{
+    color: black;
+}
