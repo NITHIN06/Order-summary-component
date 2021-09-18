@@ -76,6 +76,9 @@ h1{
     body {
         background-image: url('./images/pattern-background-mobile.svg');
     }
+    h1{
+        font-size:2rem;
+    }
     .order_card{
         background: white;
         width: 90%;
