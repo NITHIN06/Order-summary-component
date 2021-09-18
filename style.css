@@ -68,3 +68,14 @@ body{
 .can-btn a:hover{
     color: black;
 }
+@media (max-width: 768px){
+    body {
+        background-image: url('./images/pattern-background-mobile.svg');
+    }
+    .order_card{
+        background: white;
+    }
+    .top-img{
+        width: 100%;
+    }
+}
