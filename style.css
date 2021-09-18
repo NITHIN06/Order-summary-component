@@ -34,7 +34,7 @@ h1{
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    margin: 50px auto;
+    margin: 30px auto 40px auto;
     line-height: 0.5;
     background-color: #e6e5fa80;
     width: 80%;
@@ -72,7 +72,7 @@ h1{
 .can-btn a:hover{
     color: black;
 }
-@media (max-width: 768px){
+@media (max-width: 425px){
     body {
         background-image: url('./images/pattern-background-mobile.svg');
     }
